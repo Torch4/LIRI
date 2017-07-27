@@ -1,4 +1,4 @@
-
+//Despite redoing twitter, it is still erroring//
 var fs = require('fs');
 var keys = require('./keys.js');
 var Twitter = require('twitter');
