@@ -1,5 +1,6 @@
 
 var fs = require('fs');
+var keys = require('./keys.js');
 var Twitter = require('twitter');
 var spotify = require('node-spotify-api');
 var omdb = require('omdb');
@@ -24,13 +25,13 @@ function log() {
     });
 };
 
-var keys = require('./keys.js');
+
 // console.log(keys.twitterKeys);
 
 var client = new Twitter(keys.twitterKeys);
 
 var params = {
-    screen_name: 'tinyshinystuff',
+    screen_name: 'AdrianCFahrer',
     count: 20
 };
 
